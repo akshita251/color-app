@@ -23,7 +23,7 @@ class Home extends StatelessWidget {
       backgroundColor: context.bloc<ColorBloc>().state,
       appBar: AppBar(
         title: Text('Colors'),
-        backgroundColor: Colors.grey[900],
+        backgroundColor: Colors.grey[700],
         actions: <Widget>[
           IconButton(
               icon: Icon(Icons.color_lens),

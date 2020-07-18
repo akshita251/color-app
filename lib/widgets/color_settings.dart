@@ -27,6 +27,14 @@ class ColorSettings extends StatelessWidget {
             color: Colors.yellow,
             event: ColorEvents.yellow,
           ),
+          ColorButton(
+            color: Colors.black,
+            event: ColorEvents.black,
+          ),
+          ColorButton(
+            color: Colors.white,
+            event: ColorEvents.white,
+          ),
         ],
       ),
     );

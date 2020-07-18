@@ -11,7 +11,7 @@ class ColorButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return FlatButton(
         child: CircleAvatar(
-          radius: 45.0,
+          radius: 50.0,
           backgroundColor: color,
         ),
         onPressed: () {
